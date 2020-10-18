@@ -1,0 +1,55 @@
+body{
+   background-size: 100%; 
+   background-color: rgb(45, 46, 88);
+   margin: 15px 15px 15px auto;
+ 
+}
+
+header {
+   background-color: cadetblue;
+   padding-left: 10%;
+   padding-right: 10%;  
+}
+h1,h3 {
+   text-align: center;
+}
+article {
+   display: block;
+   margin-left: 30%; /* Отступ слева */
+   margin-bottom: 15px;
+   width: 40%; /* Ширина слоя */
+   color: white;
+   font-size: x-small;
+   display: block;
+   padding: 15px;
+}
+
+
+article span{
+   font-size: x-large;
+}
+
+input[name=name]:hover ~ label {
+   cursor: pointer;
+}
+input[name=name]:active ~ label {
+   transition: all .1s ease-in;
+   background-color: rgb(101, 103, 104);
+}
+input[name=name]:checked ~ label {
+   background-color: lightslategrey;
+   text-decoration: line-through;  
+
+}
+input[name=name]:visited ~ label{
+   background-color: lightslategrey;
+}
+
+footer input[type=submit] {
+   margin-left: 30%; /* Отступ слева */
+   width: 40%; /* Ширина слоя */
+   font-size: small;
+   text-align: center;
+   
+   background-color:  cadetblue;;
+}
